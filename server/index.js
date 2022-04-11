@@ -62,7 +62,7 @@ app.put("/update", (req, res) => {
     [wage, id],
     (err, result) => {
       if (err) {
-        console.log(err);;
+        console.log(err);
       } else {
         res.send("Success");
       }
