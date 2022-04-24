@@ -7,7 +7,6 @@ function App() {
   const [position, setPosition] = useState("");
   const [wage, setWage] = useState("");
   const [employeeList, setEmployeeList] = useState([]);
-
   const [newWage, setNewWage] = useState(0);
 
   const addEmployee = () => {
